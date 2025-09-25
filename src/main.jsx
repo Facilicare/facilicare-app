@@ -1,6 +1,3 @@
-Here's the complete, full-featured FaciliCare app with all sections. Replace your entire `src/main.jsx` content with this:
-
-```javascript
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom/client'
 import { Clock, Brain, Shield, Star, Phone, Heart, ArrowLeft, CheckCircle } from 'lucide-react'
