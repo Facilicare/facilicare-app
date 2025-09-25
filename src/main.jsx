@@ -1,13 +1,3 @@
-Perfect! Let's replace the simple version with the complete FaciliCare app.
-
-**Go to your GitHub repository and edit `src/main.jsx`:**
-
-1. **Navigate to your `facilicare-app` repository on GitHub**
-2. **Click on `src/main.jsx`** 
-3. **Click the pencil icon to edit**
-4. **Delete all current content** and replace with this complete app:
-
-```javascript
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom/client'
 import { Clock, Brain, Shield, Star, Phone, Heart, ArrowLeft, CheckCircle } from 'lucide-react'
