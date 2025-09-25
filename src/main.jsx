@@ -1,6 +1,13 @@
-import React, { useState } from 'react';
-import { ChevronRight, Clock, Brain, Shield, Star, Phone, MapPin, Calendar, Heart, ArrowLeft, User, CheckCircle } from 'lucide-react';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx' // This line is crucial
+import './index.css'
 
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
 const FaciliCareApp = () => {
   const [currentView, setCurrentView] = useState('homepage');
   const [formData, setFormData] = useState({
