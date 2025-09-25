@@ -1,3 +1,13 @@
+Perfect! Let's replace the simple version with the complete FaciliCare app.
+
+**Go to your GitHub repository and edit `src/main.jsx`:**
+
+1. **Navigate to your `facilicare-app` repository on GitHub**
+2. **Click on `src/main.jsx`** 
+3. **Click the pencil icon to edit**
+4. **Delete all current content** and replace with this complete app:
+
+```javascript
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom/client'
 import { Clock, Brain, Shield, Star, Phone, Heart, ArrowLeft, CheckCircle } from 'lucide-react'
@@ -474,3 +484,25 @@ const FaciliCareApp = () => {
       <footer style={{ background: 'white', padding: '48px 16px' }}>
         <div style={{ maxWidth: '1000px', margin: '0 auto', textAlign: 'center' }}>
           <h2 style={{ fontSize: '24px', fontWeight: 'bold', color:
+          <h2 style={{ fontSize: '24px', fontWeight: 'bold', color: '#1f2937', marginBottom: '16px' }}>
+            Ready to find your perfect caregiver?
+          </h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', alignItems: 'center' }}>
+            <button 
+              onClick={handleQuickMatch}
+              style={{ background: 'linear-gradient(135deg, #7F73E3, #9B8CE8)', color: 'white', padding: '16px 32px', borderRadius: '12px', fontWeight: 'bold', fontSize: '18px', border: 'none', cursor: 'pointer' }}
+            >
+              Get Started Now
+            </button>
+            <div style={{ color: '#7F73E3' }}>
+              <p>Questions? Call us at (845) 304-2452</p>
+              <p style={{ fontSize: '14px', marginTop: '8px' }}>Available 24/7 for your care needs</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  )
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<FaciliCareApp />)
