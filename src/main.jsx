@@ -285,6 +285,28 @@ const FaciliCareApp = () => {
           </div>
         </div>
       </section>
+      <section style={{ background: 'linear-gradient(135deg, #7F73E3, #9B8CE8)', padding: '64px 16px', color: 'white' }}>
+        <div style={{ maxWidth: '1000px', margin: '0 auto', textAlign: 'center' }}>
+          <h2 style={{ fontSize: '36px', fontWeight: 'bold', marginBottom: '32px' }}>Why Families Choose FaciliCare</h2>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '32px' }}>
+            <div style={{ background: 'rgba(255,255,255,0.1)', borderRadius: '12px', padding: '24px', backdropFilter: 'blur(4px)' }}>
+              <Brain style={{ width: '48px', height: '48px', margin: '0 auto 16px' }} />
+              <h3 style={{ fontSize: '20px', fontWeight: 'bold', marginBottom: '8px' }}>Advanced AI Matching</h3>
+              <p>47+ factors analyzed for perfect compatibility</p>
+            </div>
+            <div style={{ background: 'rgba(255,255,255,0.1)', borderRadius: '12px', padding: '24px', backdropFilter: 'blur(4px)' }}>
+              <Clock style={{ width: '48px', height: '48px', margin: '0 auto 16px' }} />
+              <h3 style={{ fontSize: '20px', fontWeight: 'bold', marginBottom: '8px' }}>Lightning Fast</h3>
+              <p>Get matched with qualified CNA/HHA caregivers in minutes</p>
+            </div>
+            <div style={{ background: 'rgba(255,255,255,0.1)', borderRadius: '12px', padding: '24px', backdropFilter: 'blur(4px)' }}>
+              <Phone style={{ width: '48px', height: '48px', margin: '0 auto 16px' }} />
+              <h3 style={{ fontSize: '20px', fontWeight: 'bold', marginBottom: '8px' }}>24/7 Personal Support</h3>
+              <p>Dedicated care coordinators guide your journey</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
