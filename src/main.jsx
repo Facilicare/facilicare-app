@@ -882,3 +882,4 @@ const FaciliCareApp = () => {
 };
 
 export default FaciliCareApp;
+<div style={{ backgroundColor: 'red', height: '100px', width: '100px' }}></div>
